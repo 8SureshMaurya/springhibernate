@@ -153,6 +153,18 @@
 					<port>11011</port>
 				</configuration>
 			</plugin>
+			<plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version> <!-- You can use the latest version available -->
+            <configuration>
+                <source>8</source> <!-- Set the source version -->
+                <target>8</target> <!-- Set the target version -->
+            </configuration>
+        </plugin>
+        <!-- Other plugins -->
+    </plugins>
 		</plugins>
 	</build>
 	<version>1.8-SNAPSHOT</version>
